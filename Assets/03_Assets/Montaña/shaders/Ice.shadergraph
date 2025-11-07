@@ -935,8 +935,8 @@
     "m_ObjectId": "21193f64e61942a5941ae0332bbbfafe",
     "m_Title": "Efecto iluminacion",
     "m_Position": {
-        "x": -1632.0,
-        "y": 289.0
+        "x": -1632.0001220703125,
+        "y": 288.99993896484377
     }
 }
 
@@ -1146,7 +1146,7 @@
     "m_ObjectId": "379655dbb08843ef9faddf601f4669cb",
     "m_Title": "animacion de subir y bajar intencidad ",
     "m_Position": {
-        "x": -979.000244140625,
+        "x": -979.0,
         "y": 394.0
     }
 }

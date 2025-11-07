@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2158890659435100886
+--- !u!114 &-4129086564442994634
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: lava
-  m_Shader: {fileID: -6465566751694194690, guid: 405994510ab12ff43811dd6ae055c7a4,
+  m_Name: Piso
+  m_Shader: {fileID: -6465566751694194690, guid: 703b06c594b0621438283acc0bc7b2c9,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -51,11 +51,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _ColorFlout: -7.9
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _escalaX: 16.11
-    m_Colors:
-    - _Color: {r: 0.6603774, g: 0.1697406, b: 0, a: 0}
-    - _Tiling: {r: 3.3, g: 2.59, b: 0, a: 0}
-    - _offsets: {r: 12.1, g: 0.3, b: 0, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []

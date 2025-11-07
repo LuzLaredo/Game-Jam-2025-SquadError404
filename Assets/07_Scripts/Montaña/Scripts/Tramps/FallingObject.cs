@@ -17,7 +17,7 @@ public class FallingObject : MonoBehaviour
     {
         // Puedes agregar una etiqueta para el suelo o los objetos con los que debe colisionar
         // Por ejemplo, si colisiona con el "Player" o el "Ground"
-        if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Ground")|| collision.gameObject.CompareTag("Trampa") || collision.gameObject.CompareTag("Enemy"))
         {
             // Destruye el objeto inmediatamente si colisiona con el Player o el suelo.
             Destroy(this.gameObject);
